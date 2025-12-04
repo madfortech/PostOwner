@@ -1,0 +1,30 @@
+{
+    "name": "pocketphp/post-owner",
+    "description": "A simple post owner library for PocketPHP boilerplate",
+    "keywords": ["pocketphp", "post owner", "owner"],
+    "require": {
+        "php": ">=8.2"
+    },
+    "authors": [
+        {
+            "name": "Himanshu Nishad"
+         }
+    ],
+    "version": "1.0.1-alpha",
+    "autoload": {
+        "psr-4": {
+            "PostOwner\\": "src/"
+        }
+    },
+
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/madfortech/PocketTesting"
+    }
+    ],
+    "minimum-stability": "alpha",
+    "require-dev": {
+        "pocketphp/pocket-testing": "dev-main"
+    }
+}

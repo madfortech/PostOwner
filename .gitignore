@@ -1,0 +1,24 @@
+# Vendor
+vendor/
+
+# Composer
+composer.lock
+
+
+# IDE / Editor junk
+.idea/
+.vscode/
+*.log
+*.cache
+
+# Node (if any JS assets)
+node_modules/
+
+# Tests cache or coverage
+coverage/
+.phpunit.result.cache
+
+# PocketPHP Generated
+storage/
+cache/
+
